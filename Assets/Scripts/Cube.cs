@@ -2,8 +2,10 @@
 
 public class Cube : MonoBehaviour
 {
-    // Declaring the variable.
+    // Declaring amd initializing the variables and constants.
     public MeshRenderer Renderer;
+    private const float Speed = 20.0f;
+    
     
     private void Start()
     {
@@ -20,7 +22,13 @@ public class Cube : MonoBehaviour
     
     private void Update()
     {
-        // Rotates the cube around the xAngle.
-        transform.Rotate(10.0f * Time.deltaTime, 0.0f, 0.0f);
+        // Moves the cube forward based on its position.
+        transform.Translate(Vector3.forward * (Time.deltaTime * Speed));
+
+        // Change the scale of the cube.
+        transform.localScale = new Vector3(20.5f, 20.5f, 20.5f);
+        
+        // Rotates the cube around the different angles.
+        transform.Rotate(10.0f * Time.deltaTime * 2, 15.0f * Time.deltaTime, -20.0f * Time.deltaTime);
     }
 }
