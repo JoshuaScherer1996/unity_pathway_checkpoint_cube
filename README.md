@@ -15,5 +15,5 @@ This repository contains the first checkpoint from the Unity Pathway "Junior Pro
 	- Modify any of the changes above so they change randomly each time the scene is played.
 	- Change the color of the cube over time.
 4. Create a WebGL build
-5. Upload the build. You can find the link [here](https://play.unity.com/en/games/3bc07c7e-c44d-4cd4-badf-f7bcf3c46440/checkpoint-1-cube).
+5. Upload the build. You can find the link [here](https://play.unity.com/en/games/f6cd3302-c54a-4a75-8cd2-cb9c217798d2/checkpoint-cube).
 
